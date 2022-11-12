@@ -1,10 +1,10 @@
 {
-  "name": "zotero-addon-template",
-  "addonName": "Zotero Addon Template",
-  "addonID": "addontemplate@euclpts.com",
+  "name": "my-addon",
+  "addonName": "My Zotero Addon",
+  "addonID": "myaddon@euclpts.com",
   "addonRef": "addontemplate",
   "version": "0.0.0",
-  "description": "Zotero Addon Template",
+  "description": "my addon",
   "main": "src/index.js",
   "scripts": {
     "build": "node build.js",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-addon-template.git"
+    "url": "git+https://github.com/etShaw-zh/myAddon.git"
   },
-  "author": "windingwind",
+  "author": "Shaw",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/windingwind/zotero-addon-template/issues"
+    "url": "https://github.com/etShaw-zh/myAddon/issues"
   },
-  "homepage": "https://github.com/windingwind/zotero-addon-template#readme",
+  "homepage": "https://github.com/etShaw-zh/myAddon#readme",
   "releasepage": "https://github.com/windingwind/zotero-addon-template/releases/latest/download/zotero-addon-template.xpi",
   "updaterdf": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/master/update.rdf",
   "dependencies": {
