@@ -1,0 +1,5 @@
+<!ENTITY zotero.addontemplate.itemmenu.test.label "addon template">
+<!ENTITY zotero.addontemplate.pref.enable.label "Enable">
+
+<!ENTITY zotero.addontemplate.help.version.label "My Zotero Addon VERSION 0.0.0">
+<!ENTITY zotero.addontemplate.help.releasetime.label "Build 2022-11-12 13:24:44">

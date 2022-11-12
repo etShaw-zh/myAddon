@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<RDF:RDF
+    xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+    xmlns:NC="http://home.netscape.com/NC-rdf#"
+    xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <RDF:Description
+        RDF:about="urn:mozilla:install-manifest"
+        em:id="myaddon@euclpts.com"
+        em:name="My Zotero Addon"
+        em:version="0.0.0"
+        em:type="2"
+        em:creator="windingwind"
+        em:description="my addon"
+        em:homepageURL="https://github.com/windingwind/zotero-addon-template#readme"
+        em:iconURL="chrome://addontemplate/skin/favicon.png"
+        em:optionsURL="chrome://addontemplate/content/preferences.xul"
+        em:updateURL="https://raw.githubusercontent.com/windingwind/zotero-addon-template/master/update.rdf"
+        em:multiprocessCompatible="true"
+        em:bootstrap="true">>
+        <em:type>2</em:type>
+        <em:targetApplication RDF:resource="rdf:#$x61SL3"/>
+        <em:targetApplication>
+            <Description>
+                <em:id>zotero@chnm.gmu.edu</em:id>
+                <em:minVersion>5.0</em:minVersion>
+                <em:maxVersion>*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <Description>
+                <em:id>juris-m@juris-m.github.io</em:id>
+                <em:minVersion>5.0</em:minVersion>
+                <em:maxVersion>*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+  </RDF:Description>
+</RDF:RDF>

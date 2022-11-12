@@ -1,0 +1,5 @@
+<!ENTITY zotero.addontemplate.itemmenu.test.label "插件模板">
+<!ENTITY zotero.addontemplate.pref.enable.label "开启">
+
+<!ENTITY zotero.addontemplate.help.version.label "My Zotero Addon 版本 0.0.0">
+<!ENTITY zotero.addontemplate.help.releasetime.label "Build 2022-11-12 13:24:44">

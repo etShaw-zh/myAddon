@@ -1,0 +1,4 @@
+content addontemplate chrome/content/
+skin addontemplate default	chrome/skin/default/addontemplate/
+locale addontemplate en-US chrome/locale/en-US/
+locale addontemplate zh-CN chrome/locale/zh-CN/
